@@ -1,0 +1,34 @@
+.card {
+  width: 30%;
+  background-color: white;
+  height: 22vw;
+  border-radius: 2px;
+  border: 1px solid rgb(216, 216, 216);
+}
+h4,
+.text {
+  height: 5%;
+  text-align: start;
+  padding: 0.5rem;
+  margin: 0;
+}
+.text {
+  font-size: 0.8rem;
+  margin-bottom: 5%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 12vw;
+  border-radius: 2px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  border: none;
+  background-color: red;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  padding: 2%;
+}

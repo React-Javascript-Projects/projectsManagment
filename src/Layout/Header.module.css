@@ -1,0 +1,64 @@
+.header {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 3rem;
+  gap: 1rem;
+}
+h5 {
+  display: inline;
+}
+.h {
+  width: 60%;
+  text-align: start;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdowncontent link {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent link:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
